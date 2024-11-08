@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/harunisiaho/argocd-gitops.git
     targetRevision: HEAD
-    path: ./prod/prod
+    path: ./manifests/prod
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: prod
